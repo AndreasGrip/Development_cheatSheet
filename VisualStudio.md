@@ -1,5 +1,12 @@
 # VisualCode_cheatSheet
 
+## Keyboard
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf  
+### Multi select
+<kbd>Ctrl</kbd>+<kbd>D</kbd> select the next occurrence  
+<kbd>Ctrl</kbd>+<kbd>K</kbd> + <kbd>Ctrl</kbd>+<kbd>D</kbd> skip the next occurrence  
+<kbd>Ctrl</kbd>+<kbd>U</kbd> undo one of the above  
+
 ## Additions
 ### General
 https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag  
