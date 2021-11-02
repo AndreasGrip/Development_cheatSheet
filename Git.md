@@ -13,7 +13,7 @@ git init --bare
 ```
 - Having successfully added a remote repository, this command will push the contents of your local repository up to the remote repository:  
 ```sh
-git push name-of-repo master  
+git push name-of-repo main  
 ```
 “master” being the name of the branch (we will discuss branches later, but, for now, using the master branch exclusively is fine)  
 Unless you are using SSH keys, you will be prompted for a password
@@ -21,14 +21,16 @@ Unless you are using SSH keys, you will be prompted for a password
 # Auto publish a node program on repository server
 
 You might have to run 
-```git --git-dir=/home/ubuntu/git_repositories/myProgram.git -checkout main
+```sh
+git --git-dir=/home/ubuntu/git_repositories/myProgram.git -checkout main
 ```
 due to the fact that git changed default branch name  
 
 In folder /home/ubuntu/git_repositories/myProgram.git/hooks create file post-receive and chmod it +x  
 contents should be like
 
-```#!/bin/sh
+```sh
+#!/bin/sh
 git --work-tree=/opt/myProgram --git-dir=/home/ubuntu/git_repositories/myProgram.git -checkout -f
 cd /opt/myProgram
 npm install
