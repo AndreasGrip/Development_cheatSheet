@@ -31,6 +31,7 @@ contents should be like
 
 ```sh
 #!/bin/sh
+git --work-tree=/opt/myProgram --git-dir=/home/ubuntu/git_repositories/myProgram.git -checkout main -f
 git --work-tree=/opt/myProgram --git-dir=/home/ubuntu/git_repositories/myProgram.git -checkout -f
 cd /opt/myProgram
 npm install
