@@ -7,11 +7,18 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 <kbd>Ctrl</kbd>+<kbd>K</kbd> + <kbd>Ctrl</kbd>+<kbd>D</kbd> skip the next occurrence  
 <kbd>Ctrl</kbd>+<kbd>U</kbd> undo one of the above  
 
+## Settings
+### File->Preferences->Settings <kbd>Ctrl</kbd><kbd>,</kbd>
+#### "Replace Bracket Pair Colorizer 2"
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active"
+}
+
 ## Additions
 ### General
 https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag  
 https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag  
-https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2  
 https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode  
 https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh  
 https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode  
