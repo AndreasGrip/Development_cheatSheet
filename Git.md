@@ -1,3 +1,7 @@
+# Setup git server
+
+https://linuxize.com/post/how-to-setup-a-git-server/
+
 # Create a repository on remote server
 - Log into your server via SSH
 - In a convenient location, create a new directory ending with the .git extension (production.git, for example)
