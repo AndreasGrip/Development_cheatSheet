@@ -48,8 +48,8 @@ git branch -m master main
 ```
 
 # Setup on GitHub
-create empty with correct name on github 
-add a empty repository with correct name on github 
+create empty with correct name on github   
+add a empty repository with correct name on github   
 ```sh
 git remote add origin https://github.com/AndreasGrip/gWinston.git
 git push -u origin main
