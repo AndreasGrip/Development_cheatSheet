@@ -7,6 +7,11 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 <kbd>Ctrl</kbd>+<kbd>K</kbd> + <kbd>Ctrl</kbd>+<kbd>D</kbd> skip the next occurrence  
 <kbd>Ctrl</kbd>+<kbd>U</kbd> undo one of the above  
 
+## Setup
+### Electron
+Debug both back and frontend at the same time  
+https://github.com/Microsoft/vscode-recipes/tree/master/Electron
+
 ## Settings
 ### File->Preferences->Settings <kbd>Ctrl</kbd><kbd>,</kbd>
 #### "Replace Bracket Pair Colorizer 2"
