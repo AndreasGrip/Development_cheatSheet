@@ -1,7 +1,7 @@
 ##### Push ssh-key to server
 ```
-ssh-keygent -t dsa -b 2048 -f hostname
-ssh-copy-id -i ~/.ssh/hostname.pub user@host
+ssh-keygen -t rsa -b 4096 -f hostname (add -o if server support openssh)
+ssh-copy-id -i ~/.ssh/hostname.pub user@hostname
 ```
 ##### After reinstallation of ssh on server to remove old keys
 ```
