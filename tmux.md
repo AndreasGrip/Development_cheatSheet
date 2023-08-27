@@ -3,8 +3,11 @@
 What I ususally call sessions are called windows in tmux. In tmux one session have multiple windows  
 https://tmuxcheatsheet.com/
 
+To attach last session  
+$ tmux a  
 
-## sessions
+
+## windows
 <kbd>CTRL</kbd><kbd>b</kbd> - <kbd>c</kbd> new window  
 <kbd>CTRL</kbd><kbd>b</kbd> - <kbd>d</kbd> detach window  
 <kbd>CTRL</kbd><kbd>b</kbd> - <kbd>l</kbd> last window  
